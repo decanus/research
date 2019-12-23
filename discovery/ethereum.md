@@ -8,7 +8,7 @@ Secondly, PR [#20094](https://github.com/ethereum/go-ethereum/pull/20094) introd
 
 ## Kademlia
 
-For further discovery once bootnodes have been discovered, ethereum uses a modified version of kademlia. It ommits the `STORE` and `FIND_VALUE` RPCs and uses the rest of the DHT to gather information about peers. 
+For further discovery once bootnodes have been discovered, ethereum uses a modified version of kademlia. It omits the `STORE` and `FIND_VALUE` RPCs and uses the rest of the DHT to gather information about peers. 
 
 ## References
  - <https://rchain.atlassian.net/wiki/spaces/CORE/pages/15564804/Ethereum+P2P+Node+Discovery+and+Routing>
