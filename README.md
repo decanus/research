@@ -4,3 +4,4 @@ This repository contains all the research I do both for work and in my free-time
 
 - [Discovery](./discovery/README.md) - This section covers discovery in p2p networks.
   - [Ethereum](./discovery/ethereum.md)
+  - [Rendezvous](./discovery/rendezvous.md)
