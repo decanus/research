@@ -18,7 +18,7 @@ Logs can serve as a sort of backup of the entire state. Version control is essen
 
 Logs act as a buffer making data production asynchronous from data consumption.
 
-The author uses log because they more specific about semantics, they are a messaging system with durability guarantees and strong ordering semantic, unlike more generic messaging systems or pub sub. In distributed systems this is often also called an [atomic broadcast](https://en.wikipedia.org/wiki/Atomic_broadcast).
+The author uses log because they are more specific about semantics, they are a messaging system with durability guarantees and strong ordering semantics, unlike more generic messaging systems or pub sub. In distributed systems this is often also called an [atomic broadcast](https://en.wikipedia.org/wiki/Atomic_broadcast).
 
 Post pretty much ends with an explanation of kafka.
 
