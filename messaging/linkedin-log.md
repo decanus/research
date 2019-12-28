@@ -8,13 +8,13 @@ This post is not about application logging, rather about logging that is used by
 
 > If two identical, deterministic processes begin in the same state and get the same inputs in the same order, they will produce the same output and end in the same state.
 
-As long as 2 processes process the log in the same way, they will reach the same end state. It doesn't really matter what is put in the log however, as long as it is **enough** for processes to remain consistent.
+As long as 2 nodes process the log in the same way, they will reach the same end state. It doesn't really matter what is put in the log however, as long as it is **enough** for nodes to remain consistent.
 
 In databases we have **physical logging**, which is logging the contents of each row that was changed. We also have **logical logging**, which is not what was changed but which command was executed to change the row.
 
 Similarly in other distributed systems we have logical and physical logging, where all nodes either process the full request or one node does and then distributes the results to other nodes.
 
-Logs can serve as a sort of backup of the entire state. Version control is essentially a state. Additionally logs provide logical clocks in systems where multiple nodes synchronize a single log. This means we can say for example, don't read from any process that has not synchronized up to logical clock `x`.
+Logs can serve as a sort of backup of the entire state. Version control is essentially a log. Additionally logs provide logical clocks in systems where multiple nodes synchronize a single log. This means we can say for example, don't read from any process that has not synchronized up to logical clock `x`.
 
 Logs act as a buffer making data production asynchronous from data consumption.
 
