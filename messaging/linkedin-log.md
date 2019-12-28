@@ -1,6 +1,6 @@
 #   [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 
-Logs are a **data structure**, where **records** are appended to end. Logs are read from top-to-bottom (left-to-right).
+Logs are a **data structure**, where **records** are appended to the end. Logs are read from top-to-bottom (left-to-right).
 
 This post is not about application logging, rather about logging that is used by software. Like logs that are written to before database changes are made for purposes of atomicity, replication and restoration.
 
