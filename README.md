@@ -6,5 +6,5 @@ This repository contains all the research I do both for work and in my free-time
   - [Ethereum](./discovery/ethereum.md)
   - [Rendezvous](./discovery/rendezvous.md)
 - [Messaging](./messaging/README.md) - This section covers research for messaging in distributed systems.
-  - [The Log: What every software engineer should know about real-time data's unifying abstraction](./datastructures/linkedin-log.md)
+  - [The Log: What every software engineer should know about real-time data's unifying abstraction](./messaging/linkedin-log.md)
 
