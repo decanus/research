@@ -15,3 +15,6 @@ Since we have no notion of global time, communication is the only thing that all
 ![](../assets/causal_ordering.svg)
 
 **Communication bounds causality**
+
+## References
+ - [Research Issue](https://github.com/decanus/research/issues/10)
