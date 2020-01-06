@@ -19,3 +19,6 @@ Changing the value of ``Ci`` takes place between events, meaning that the changi
 When a node receives a message from another node, that message contains a clock value indicating its clock value on the sender node, the receiving node must then set its own clock value to be greater than the one received.
 
 We can use these clocks to totally order the set of all events that occurred in our system by sorting them using their clock values. To break ties we use an arbitrary ordering of events.
+
+## References
+ - [Research Issue](https://github.com/decanus/research/issues/10)
