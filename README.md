@@ -9,4 +9,5 @@ This repository contains all the research I do both for work and in my free-time
   - [The Log: What every software engineer should know about real-time data's unifying abstraction](./messaging/linkedin-log.md)
 - [Ordering](./ordering/README.md) - This section covers research for the ordering of events in distributed systems.
   - [Causal Ordering](./ordering/causal_ordering.md)
+  - [Time, Clocks, and the Ordering of Events in a Distributed System](./ordering/time_order.md)
 
