@@ -11,5 +11,7 @@ This repository contains all the research I do both for work and in my free-time
   - [Causal Ordering](./ordering/causal_ordering.md)
   - [Time, Clocks, and the Ordering of Events in a Distributed System](./ordering/time_order.md)
 
+General [notes](./notes/) are also contained, these are often not complete.
+
 For more long form posts see [my blog](https://dean.eigenmann.me/blog).
 
