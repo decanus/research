@@ -66,3 +66,4 @@ In order to handle failure of rendezvous points, the state containing the group 
 ## Related Work
  - [Overcast](https://www.researchgate.net/publication/220851762_Overcast_Reliable_Multicasting_with_an_Overlay_Network)
  - [Narada](https://courses.cs.washington.edu/courses/csep561/08au/papers/chu-jsac02.pdf)
+ - [Bayeux](https://people.eecs.berkeley.edu/~adj/publications/paper-files/bayeux.pdf)
