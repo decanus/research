@@ -46,7 +46,7 @@ Scribe has the following message types:
  - `JOIN` - used to join a group. 
    If a node is asked to forward this message by pastry, and it is not yet a forwarder for this group it adds it to its set of groups to become a forwarder ([see "dissemninating messages"](#dissemninating-messages)), additionally it adds the source node as a child. It must then become a forwarder by sending a `JOIN` message to the next closest node to the group ID.
  - `CREATE` - used to create a new group with a groupID as the messages key.
- - `LEAVE` - used when a node wants to leave. First a node marks itself locally as left, if a node has no children it just sends this message to its parent node in the tree. The message is passed up recrusively until a node still has children after the departing node was removed.
+ - `LEAVE` - used when a node wants to leave. First a node marks itself locally as left, if a node has no children it just sends this message to its parent node in the tree. The message is passed up recursively until a node still has children after the departing node was removed.
  - `MULTICAST`
 
 Proper credentials are needed to `JOIN`, `CREATE` or `MULTICAST`.
