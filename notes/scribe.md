@@ -62,3 +62,7 @@ Nodes cache the rendezvous point when multicasting, they do so by routing the `M
 Parents send heartbeat messages to all their children periodically, if a child fails to receive such a message it can assume that the parent has failed. If this is the case, it simply routes a `JOIN` message again using pastry, which will route that message to a new parent, fixing the tree.
 
 In order to handle failure of rendezvous points, the state containing the group creator and an access control list is replicated across the `k` closest nodes to the root node (a typical value of K is 5). If the root fails, its chilren detect it and call `JOIN` through Pastry, this message is then routed to a new route.
+
+## Related Work
+ - [Overcast](https://www.researchgate.net/publication/220851762_Overcast_Reliable_Multicasting_with_an_Overlay_Network)
+ - [Narada](https://courses.cs.washington.edu/courses/csep561/08au/papers/chu-jsac02.pdf)
