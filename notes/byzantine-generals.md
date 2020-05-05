@@ -11,7 +11,7 @@ We must have an algorithm where:
 
 It is hard to say what a bad plan is, therefore we say that a bad plan is one which the majority clearly did not agree to. In a majority vote, the traitors can only affect the vote if the loyal generals were almost equally divided, meaning neither decision could be called bad.
 
-The first condition is satisfied by ensuring all generals use the same method for combinding recieved messages.
+The first condition is satisfied by ensuring all generals use the same method for combining recieved messages.
 
 The easiest way to solve this would be for every general to send their opinion by messenger to each other general. This does not work because to satisfy condition A every general should obtain the same values. However, a traitor may send seperate values to generals.
 
