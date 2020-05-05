@@ -41,7 +41,7 @@ If the traitor continues to lie, then the loyal lieutenant has no way to disting
 
 Therefore in our second scenario, one lieutenant obeys the `attack` while the other obeys the `retreat` violating our condition IC1. This concludes that we have no solution that works without a single traitor.
 
-This shows us that no solution can work for `3m + 1` generals with `m` traitors.
+This shows us that no solution can work for `3m` generals with `m` traitors.
 
 It may seem like The Byzantine Generals problem stems from the requirement of reching exact agreement. However, reaching approximate agreement is just as hard.
 
