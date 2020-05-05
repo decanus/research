@@ -51,7 +51,7 @@ Scribe has the following message types:
 
 Proper credentials are needed to `JOIN`, `CREATE` or `MULTICAST`.
 
-#### Dissemninating messages
+#### Disseminating messages
 
 Scribe creates a multicast tree to disseminate multicast messages, the tree is created using a scheme similar to reverse path forwarding. The tree is formed by joining the pastry routes from each group member to the rendezvous-point. Group joining is managed in a decentralized manner to support large and dynamic membership. Scribe nodes that are part of the tree are called **forwarders** and may or may not be part of the tree, each forwarder keeps a table containing each of its children in the tree.
 
