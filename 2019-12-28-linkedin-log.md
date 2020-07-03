@@ -22,8 +22,3 @@ The author uses log because they are more specific about semantics, they are a m
 
 Post pretty much ends with an explanation of kafka.
 
-
-
-
-
-
